@@ -4,13 +4,15 @@
 package main
 
 import (
-	"context"
-	"flag"
-	"log"
+    "context"
+    "flag"
+    "log"
 
-	"github.com/hashicorp/terraform-plugin-framework/providerserver"
-	"github.com/hashicorp/terraform-provider-scaffolding-framework/internal/provider"
+    "github.com/hashicorp/terraform-plugin-framework/providerserver"
+
+    "terraform-provider-snowcell/internal/provider"
 )
+
 
 // Run "go generate" to format example terraform files and generate the docs for the registry/website
 

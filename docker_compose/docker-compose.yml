@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  fastapi_app:
+    image: yourdockerhubusername/fastapi-app:latest  # Use the pre-built Docker image
+    ports:
+      - "8000:8000"
+    environment: # perhaps not needed
+      - DATABASE_URL=postgresql+asyncpg://postgres.whfunurnpdhmxsuzhpgr:Xzv5KjRTmAuVmz9X@aws-0-eu-central-1.pooler.supabase.com:5432/postgres
